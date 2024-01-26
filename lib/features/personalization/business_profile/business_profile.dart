@@ -43,6 +43,7 @@ class BusinessProfilePage extends StatelessWidget {
               horizontal: JSizes.medium, vertical: JSizes.big),
           child: SingleChildScrollView(
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Text(
                   JTexts.updateBusinessPhotoAndDetails,
