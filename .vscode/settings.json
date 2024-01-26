@@ -1,0 +1,16 @@
+{
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "*.dart": "${capture}.mobile.dart, ${capture}.tablet.dart, ${capture}.desktop.dart, ${capture}.form.dart, ${capture}.g.dart, ${capture}.freezed.dart, ${capture}.logger.dart, ${capture}.locator.dart, ${capture}.router.dart, ${capture}.dialogs.dart, ${capture}.bottomsheets.dart"
+    },
+    // "dart.flutterSdkPath": "~/flutterDev/flutter"
+    "dart.flutterSdkPath": "~/fvm/versions/3.13.7",
+    // Remove .fvm files from search
+    "search.exclude": {
+      "**/.fvm": true
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+      "**/.fvm": true
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "463692088434",
+    "project_id": "joha-8389b",
+    "storage_bucket": "joha-8389b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463692088434:android:134cd3ac83435c2a376eeb",
+        "android_client_info": {
+          "package_name": "com.example.joha_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmhDY0pQ60yP0vz7-sY6ufPZJI6s3vCFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

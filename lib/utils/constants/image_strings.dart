@@ -1,0 +1,5 @@
+class JImageStrings {
+  JImageStrings._();
+
+ 
+}
