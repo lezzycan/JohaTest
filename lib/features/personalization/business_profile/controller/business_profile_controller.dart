@@ -7,6 +7,7 @@ import 'package:joha_test/features/personalization/business_profile/model/busine
 import 'package:joha_test/features/repository/business_profile_repository/business_profile.dart';
 
 class BusinessController extends GetxController {
+  static BusinessController get instance => Get.find();
   late TextEditingController group;
   late TextEditingController otherGroup;
   late TextEditingController newGroup;

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:joha_test/features/personalization/business_profile/controller/business_profile_controller.dart';
 import 'package:joha_test/features/personalization/personal_profile/controller/personal_profile_controller.dart';
 import 'package:joha_test/utils/constants/text_strings.dart';
 
@@ -27,7 +28,7 @@ class PictureRow extends StatelessWidget {
             ),
             child: PersonalProfileController
                         .instance.selectedImagePath.value ==
-                    null
+                    null 
                 ? Image.asset(
                     "assets/images/Avatar.png",
                     fit: BoxFit.fill,
